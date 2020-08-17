@@ -32,3 +32,30 @@ a:hover {
                   ****** GLOBAL ******
       ==============================================
  */
+
+ .logo{
+   width: 396px;
+ }
+
+ button.subscribe-btn{
+   border-radius: 50px;
+   padding: 2px 16px;
+ }
+
+ @media (max-width: 991px){
+   .logo{
+     width: 132px;
+   }
+ }
+
+ @media (max-width: 767px){
+  nav.top-nav{
+    padding-left: 0.5em !important; 
+    padding-right: 0.5em !important;
+  } 
+  
+  button.subscribe-btn{
+     padding: 1px 12px;
+     font-size: 13px;
+   }
+ }
